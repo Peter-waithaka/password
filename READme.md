@@ -5,15 +5,13 @@
  >1. `` git clone git remote add origin https://github.com/Peter-waithaka/password.git``
 >2. ``cd password``
 >3. To run the app,  use  ``` python3.8 user_credentials_test.py ```
->4. To tun Tests,  use  `` python3.8 -m unittest``
+
 
 
 ## Setup
 > Install these first:
 * Python3.8
-* pyFiglet
-* pyperclip
-* Termcolor
+
 
 ## Technologies used
 * Python3.8
