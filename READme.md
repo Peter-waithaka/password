@@ -3,7 +3,7 @@
  
 
  >1. `` git clone https://github.com/Peter-waithaka/python_password_lock.git `` 
->2. ``cd PASSWORD_LOCKER``
+>2. ``cd password``
 >3. To run the app,  use  ``` python3.8 app.py ```
 >4. To tun Tests,  use  `` python3.8 -m unittest``
 
