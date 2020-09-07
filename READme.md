@@ -2,9 +2,9 @@
 ### by :Peter Waithaka
  
 
- >1. `` git clone https://github.com/Peter-waithaka/python_password_lock.git `` 
+ >1. `` git clone git remote add origin https://github.com/Peter-waithaka/password.git``
 >2. ``cd password``
->3. To run the app,  use  ``` python3.8 app.py ```
+>3. To run the app,  use  ``` python3.8 user_credentials_test.py ```
 >4. To tun Tests,  use  `` python3.8 -m unittest``
 
 
