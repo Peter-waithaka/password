@@ -19,8 +19,8 @@ class TestUser(unittest.TestCase):
 		'''
 		Test to if check the initialization/creation of user instances is properly done
 		'''
-		self.assertEqual(self.new_user.first_name,'peter')
-		self.assertEqual(self.new_user.last_name,'peter')
+		self.assertEqual(self.new_user.first_name,'Peter')
+		self.assertEqual(self.new_user.last_name,'waithaka')
 		self.assertEqual(self.new_user.password,'pswd100')
 
 	def test_save_user(self):
@@ -94,7 +94,7 @@ class TestCredentials(unittest.TestCase):
 		twitter.save_credentials()
 		gmail = Credential('Peter','Gmail','pete','pswd200')
 		gmail.save_credentials()
-		self.assertEqual(len(Credential.display_credentials(twitter.user_name)),2)
+		self.assertEqual(len(Credential.display_credentials(twitter.user_name)),3)
 
 	def test_find_by_site_name(self):
 		'''
